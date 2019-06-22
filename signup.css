@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.joinform {
+
+}
+input {
+	size: 50px;
+}
+.id {
+	margin: 10px 10px 10px 10px;
+}
+
+.password {
+	margin: 10px 10px 10px 10px;
+}
+
+.password_check {
+	margin: 10px 10px 10px 10px;
+}
+
+.nickname {
+	margin: 10px 10px 10px 10px;
+}
+
+.email {
+	margin: 10px 10px 10px 10px;
+}
+
+.phonenumber {
+	margin: 10px 10px 10px 10px;
+}
+
+.join {
+	margin: 10px 10px 10px 10px;
+}

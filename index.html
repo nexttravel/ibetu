@@ -10,6 +10,21 @@
 	    new WOW().init();
 	</script>
 </head>
+
+<script>
+	$(document).ready(function(){
+		$('.login_btn').click(function(){
+			$('.login_box').css({'display':'none'});
+			$('.profile_box').css({'display':'block'});
+		});
+
+		$('.logout_btn').click(function(){
+			$('.login_box').css({'display':'block'});
+			$('.profile_box').css({'display':'none'});
+		});
+	});
+</script>
+
 <body>
 	<div class="panel">
 		<div class="menu_panel">
@@ -38,19 +53,24 @@
 				<div class="find signup">회원가입</div>
 			</div>
 
-			<div class="profile_box login_box">
+			<div class="profile_box">
 				<div class="profile_id_box">
-					<div class="left profile_photo_box">
+					<div class="profile_photo_box float_left">
 						<img class="profile_photo" src="profile.jpg">
 					</div>
-					<div class="left profile_id">A_user</div>
+					<div class="profile_info_box float_left">
+						<div class="profile_txt"><b>A_user</b></div>
+						<div class="profile_txt">오늘 <b>35</b>명 조회</div>
+					</div>
 				</div>
 				
-				<div class="profile_menu">오늘 <b>35</b>명 조회</div>
-				<div class="profile_menu">글쓰기</div>
-				<div class="profile_menu">내 게시판</div>
-				<div class="profile_menu">마이페이지</div>
+				<div class="profile_menu_box">
+					<div class="profile_menu">글쓰기</div>
+					<div class="profile_menu">내 게시판</div>
+					<div class="profile_menu">마이페이지</div>
+				</div>
 
+				<div class="logout_btn">로그아웃</div>
 			</div>
 		</div>
 

@@ -1,0 +1,188 @@
+@charset "utf-8";
+body{
+	overflow-x: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: 'white'; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #7F7F7F; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.float_left{float: left;}
+
+.panel{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0px;
+    bottom:0px;
+    left:0px;
+   	right:0px;
+}
+
+.menu_panel{
+	position: fixed;
+	width: 100vw;
+	height: 10vh;
+	z-index: 1;
+	background: white;
+	border: solid .5px;
+}
+
+.menu_box{
+	position: relative;
+	left: 27vw;
+	width: auto;
+	height: 10vh;
+	/*border: solid .5px;*/
+}
+
+.menu{
+	position: relative;
+	float: left;
+	margin: 1vw;
+	cursor: pointer;
+	font-size: 1.5vw;
+	/*border: solid .5px;*/
+}
+
+.login_panel{
+	position: relative;
+	top: 15vh;
+	left: 1vw;
+	float: left;
+	width: 15vw;
+	height: 25vh;
+	border: solid .5px;
+}
+
+.login_box{
+	position: relative;
+	top: 10%;
+	left: 2vw;
+	display: none;
+}
+
+.login{
+	position: relative;
+	width: 70%;
+	height: 1.3vw;
+	margin-bottom: .5vw;
+}
+
+.login_btn{
+	position: relative;
+	width: 70%;
+	height: 2vw;
+	cursor: pointer;
+	font-size: 1vw;
+}
+
+.find_box{
+	position: relative;
+	width: 70%;
+	height: 1.5vw;
+	/*border: solid .5px;*/
+}
+
+.find{
+	position: relative;
+	float: left;
+	font-size: .8vw;
+	color: #464646;
+	cursor: pointer;
+	/*border: solid .5px;*/
+}
+
+.find:hover{
+	text-decoration: underline;
+}
+
+.signup{
+	float: none;
+}
+
+.profile_box{
+	display: block;
+}
+
+.profile_photo_box{
+	position: relative;
+	width: 2.5vw;
+	height: 2.5vw;
+	border-radius: 2vw;
+	/*border: solid .5px;*/
+	overflow: hidden;
+}
+
+.profile_photo{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.write{
+	position: relative;
+	cursor: pointer;
+	font-size: 
+}
+
+.rank_panel{
+	position: absolute;
+	width: 40vw;
+	height: auto;
+	top: 15vh;
+	left: 20vw;
+	/*border: solid .5px;*/
+
+}
+
+.list_box{
+	position: relative;
+	width: 100%;
+	height: 8vh;
+	border-bottom: solid .5px;
+}
+
+.list_txt{
+	position: relative;
+	width: 15%;
+	height: 100%;
+	float: left;
+	/*border: solid .5px;*/
+	text-align: center; /*센터 맞춤 속성*/
+	display: flex; /*센터 맞춤 속성*/
+	justify-content: center; /*센터 맞춤 속성*/
+	align-items: center; /*센터 맞춤 속성*/
+	font-size: 1vw;
+}
+
+
+.rank{
+	/*font-size: 1.5vw;*/
+	font-weight: 700;
+	/*color: #FF0000;*/
+}
+
+.id{
+	font-weight: 700;
+}
+
+.link_to_tipster{
+	cursor: pointer;
+}

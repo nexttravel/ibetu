@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+.cal_panel{
+	position: relative;
+	top: 100px;
+	width: 1500px;
+	height: 1500px;
+	margin-bottom: 300px;
+	/*border: solid .5px;*/
+
+}
+
+.month_box{
+	position: absolute;
+	/*border: solid .5px;*/
+}
+
+.before_month{
+	position: relative;
+	width: 35px;
+	padding-right: 15px;
+	font-size: 35px;
+	font-weight: 700;
+	float: left;
+	cursor: pointer;
+	/*border: solid .5px;*/
+}
+
+.next_month{
+	position: relative;
+	width: 35px;
+	padding-left: 17px;
+	font-size: 35px;
+	font-weight: 700;
+	float: left;
+	cursor: pointer;
+	/*border: solid .5px;*/
+}
+
+.month{
+	position: relative;
+	font-size: 35px;
+	font-weight: 700;
+	float: left;
+	font-family: 'Nanum Gothic', sans-serif;
+	/*border: solid .5px;*/
+}
+
+.cal_box{
+	position: relative;
+	top: 80px;
+	width: 100%;
+	height: 100%;
+}
+
+.cal_day_row{
+	position: relative;
+	width: 100%;
+	height: 45px;
+	/*border: solid .5px;*/
+}
+
+.cal_day_colm{
+	position: relative;
+	height: 100%;
+	float: left;
+	border: solid .5px;
+	text-align: center; /*센터 맞춤 속성*/
+	display: flex; /*센터 맞춤 속성*/
+	justify-content: center; /*센터 맞춤 속성*/
+	align-items: center; /*센터 맞춤 속성*/
+}
+
+.cal_date_row{
+	position: relative;
+	width: 100%;
+	/*border: solid .5px;*/
+}
+
+.cal_date_colm{
+	position: relative;
+	height: 100%;
+	float: left;
+	border: solid .5px;
+}
+
+.date{
+	position: relative;
+	top: 5px;
+	left: 10px;
+	float: left;
+	font-size: 19px;
+}
+
+.expand_btn_box{
+	position: relative;
+	top: 7px;
+	left: 172px;
+	width: 22px;
+	height: 22px;
+	/*border: solid .5px;*/
+}
+
+.expand_btn{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	/*border: solid .5px;*/
+}
+
+.game_box{
+	position: relative;
+	width: 100%;
+}
+
+.game_box_row{
+	position: relative;
+	top: 10px;
+	width: 100%;
+	/*border: solid .5px red;*/
+}
+
+.game{
+	position: relative;
+	float: left;
+}
+
+.game_team{
+	position: absolute;
+	left: 8px;
+	font-weight: 700;
+}
+
+.game_time{
+	position: absolute;
+	left: 140px;
+}
+
+.logo_box{
+	position: relative;
+	width: 35px;
+	height: 35px;
+	float: left;
+}
+
+.logo{
+	width: 100%;
+	height: 100%;
+}

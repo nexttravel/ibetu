@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KBO Tipster</title>
+	<link rel='stylesheet' href='GameSchedule.css'>
+	<link rel='stylesheet' href='scroll_panel_menu.css'>
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+	<script src='http://code.jquery.com/jquery-3.3.1.js'></script>
+	<script src="scroll_panel_menu.js"></script>
+	<script src="GameSchedule.js"></script>
+	<link rel="stylesheet" href="animate.css">
+	<script src="wow.min.js"></script>
+	<script>
+	    new WOW().init();
+	</script>
+</head>
+
+<body>
+	<div class="panel">
+		<div class="menu_panel">
+			<div class="menu_box">
+				<div class="menu" onclick="location.href='index.html'">HOME</div>
+				<div class="menu" onclick="location.href='GoldBoard.html'">골드 Tips</div>
+				<div class="menu">무료 Tips</div>
+				<div class="menu">팁스터 랭킹</div>
+				<div class="menu" onclick="location.href='GameSchedule.html'">경기 일정</div>
+				<div class="menu">주요 기사</div>
+				<div class="menu">관련 사이트</div>
+				<div class="menu">My Page</div>
+				<div class="menu">About us</div>
+			</div>
+		</div>
+
+		<div class="cal_panel">
+			<div class="month_box">
+				<div class="before_month"><</div>
+				<div class="month">7 월</div>
+				<div class="next_month">></div>
+			</div>
+
+			<div class="cal_box">
+				<div class="cal_day_row">
+					<div class="cal_day_colm">SUN</div>
+					<div class="cal_day_colm">MON</div>	
+					<div class="cal_day_colm">TUE</div>	
+					<div class="cal_day_colm">WED</div>	
+					<div class="cal_day_colm">THU</div>	
+					<div class="cal_day_colm">FRI</div>	
+					<div class="cal_day_colm">SAT</div>				
+				</div>
+				
+				<div class="cal_date_row">
+					<div class="cal_date_colm">
+						<div class="date"></div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">1</div>
+					</div>
+					
+					<div class="cal_date_colm">
+						<div class="date">2</div>
+
+						<div class="expand_btn_box">
+							<img class="expand_btn" src="C:\Users\godls\Desktop\GitHub\ibetu\src\baseline-add-24px.svg">
+						</div>
+
+						<div class="game_box">
+							<div class="game_box_row">
+								<div class="game game_team">NC VS KIA</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">삼성 VS kt</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">롯데 VS SK</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">한화 VS LG</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">두산 VS 히어로즈</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">3</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">4</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">5</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">6</div>
+					</div>
+				</div>	
+
+				<div class="cal_date_row">
+					<div class="cal_date_colm">
+						<div class="date"></div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">1</div>
+					</div>
+					
+					<div class="cal_date_colm">
+						<div class="date">2</div>
+
+						<div class="expand_btn_box">
+							<img class="expand_btn" src="C:\Users\godls\Desktop\GitHub\ibetu\src\baseline-add-24px.svg">
+						</div>
+
+						<div class="game_box">
+							<div class="game_box_row">
+								<div class="game game_team">NC VS KIA</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">삼성 VS kt</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">롯데 VS SK</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">한화 VS LG</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">두산 VS 히어로즈</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">3</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">4</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">5</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">6</div>
+					</div>
+				</div>
+
+				<div class="cal_date_row">
+					<div class="cal_date_colm">
+						<div class="date"></div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">1</div>
+					</div>
+					
+					<div class="cal_date_colm">
+						<div class="date">2</div>
+
+						<div class="expand_btn_box">
+							<img class="expand_btn" src="C:\Users\godls\Desktop\GitHub\ibetu\src\baseline-add-24px.svg">
+						</div>
+
+						<div class="game_box">
+							<div class="game_box_row">
+								<div class="game game_team">NC VS KIA</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">삼성 VS kt</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">롯데 VS SK</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">한화 VS LG</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">두산 VS 히어로즈</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">3</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">4</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">5</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">6</div>
+					</div>
+				</div>
+
+				<div class="cal_date_row">
+					<div class="cal_date_colm">
+						<div class="date"></div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">1</div>
+					</div>
+					
+					<div class="cal_date_colm">
+						<div class="date">2</div>
+
+						<div class="expand_btn_box">
+							<img class="expand_btn" src="C:\Users\godls\Desktop\GitHub\ibetu\src\baseline-add-24px.svg">
+						</div>
+
+						<div class="game_box">
+							<div class="game_box_row">
+								<div class="game game_team">NC VS KIA</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">삼성 VS kt</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">롯데 VS SK</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">한화 VS LG</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">두산 VS 히어로즈</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">3</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">4</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">5</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">6</div>
+					</div>
+				</div>
+
+				<div class="cal_date_row">
+					<div class="cal_date_colm">
+						<div class="date"></div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">1</div>
+					</div>
+					
+					<div class="cal_date_colm">
+						<div class="date">2</div>
+
+						<div class="expand_btn_box">
+							<img class="expand_btn" src="C:\Users\godls\Desktop\GitHub\ibetu\src\baseline-add-24px.svg">
+						</div>
+
+						<div class="game_box">
+							<div class="game_box_row">
+								<div class="game game_team">NC VS KIA</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">삼성 VS kt</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">롯데 VS SK</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">한화 VS LG</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+							<div class="game_box_row">
+								<div class="game game_team">두산 VS 히어로즈</div>
+								<div class="game game_time">오후 6:30</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">3</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">4</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">5</div>
+					</div>
+
+					<div class="cal_date_colm">
+						<div class="date">6</div>
+					</div>
+				</div>	
+			</div>
+
+		</div>
+
+		
+	</div>
+</body>
+</html> 

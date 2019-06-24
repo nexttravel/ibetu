@@ -72,16 +72,21 @@
 }
 
 .cal_date_row{
-	position: relative;
+	position: absolute;
 	width: 100%;
 	/*border: solid .5px;*/
 }
 
 .cal_date_colm{
-	position: relative;
+	position: absolute;
 	height: 100%;
 	float: left;
+	background: white;
 	border: solid .5px;
+}
+
+.test{
+	/*background: #F8DBDB;*/
 }
 
 .date{

@@ -63,11 +63,38 @@
 	color: #817E7E;
 }
 
+.rate_panel{
+	position: relative;
+	top: 60px;
+	width: 100%;
+	margin-bottom: 80px;
+	/*border: solid .5px;*/
+}
+
+.rate_box{
+	position: relative;
+	clear: left;
+}
+
+.rate{
+	position: relative;
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+	line-height: 25px;
+}
+
+.rate_ttl{
+	font-weight: 700;
+}
+
+
 .contents{
 	position: relative;
 	top: 60px;
 	width: 100%;
 	height: auto;
+	line-height: 25px;
 	/*margin-bottom: 300px;*/
 	/*border: solid .5px;*/
 }
@@ -149,4 +176,8 @@
 	width: 80px;
 	/*left: 20px;*/
 	font-weight: 700;
+}
+
+.comment{
+	line-height: 25px;
 }

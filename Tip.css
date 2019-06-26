@@ -1,0 +1,152 @@
+.tip_panel{
+	position: relative;
+	top: 100px;
+	width: 900px;
+	height: auto;
+	padding: 0 10px 0 10px;
+	background: white;
+	font-family: 'Nanum Gothic', sans-serif;
+	/*border: solid .5px;*/
+}
+
+.game{
+	position: relative;
+	padding-top: 10px;
+}
+
+.ttl{
+	position: relative;
+	width: 100%;
+	height: 180px;
+	/*border: solid .5px;*/
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center; /*센터 맞춤 속성*/
+	display: flex; /*센터 맞춤 속성*/
+	justify-content: center; /*센터 맞춤 속성*/
+	align-items: center; /*센터 맞춤 속성*/
+}
+
+.info_box{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	top: 10px;
+	padding-bottom: 15px;
+	border-bottom: solid .5px #D1D0D0;
+
+}
+
+.prof_box{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+.prof{
+	width: 100%;
+	height: 100%;
+}
+
+.info{
+	position: absolute;
+}
+
+.view{
+	color: #817E7E;
+}
+
+.date{
+	color: #817E7E;
+}
+
+.contents{
+	position: relative;
+	top: 60px;
+	width: 100%;
+	height: auto;
+	/*margin-bottom: 300px;*/
+	/*border: solid .5px;*/
+}
+
+.comment_panel{
+	position: relative;
+	top: 180px;
+	width: 100%;
+	height: 500px; /*max-height로 변경해주기*/
+	margin-bottom: 300px;
+	border-top: solid .5px #D1D0D0;
+}
+
+.comment_wrapper{
+	position: relative;
+	top: 20px;
+}
+
+.comment_info{
+	position: relative;
+	top: 10px;
+	/*top: 18px;*/
+}
+
+.wrt_commnet_box{
+	position: relative;
+	top: 20px;
+	width: 100%;
+	height: 60px;
+	/*border: solid .5px;*/
+}
+
+.wrt_comment{
+	position: relative;
+	min-width: 90%;
+	max-width: 90%;
+	height: 100%;
+	float: left;
+}
+
+.comment_btn{
+	position: relative;
+	top: 2px;
+	left: 1%;
+	width: 8%;
+	height: 100%;
+	border-radius: 5px;
+	background: #DAD7D7;
+	text-align: center; /*센터 맞춤 속성*/
+	display: flex; /*센터 맞춤 속성*/
+	justify-content: center; /*센터 맞춤 속성*/
+	align-items: center; /*센터 맞춤 속성*/
+	cursor: pointer;
+}
+
+.comment_box{
+	position: relative;
+	top: 50px;
+	width: 100%;
+	height: 500px;
+	/*border: solid .5px;*/
+}
+
+.comment_row{
+	position: relative;
+	width: 100%;
+	min-height: 80px;
+	height: auto;
+	/*border: solid .5px;*/
+}
+
+.comment_colm{
+	position: absolute;
+	float: left;
+	/*border:solid;*/
+}
+
+.comment_id{
+	width: 80px;
+	/*left: 20px;*/
+	font-weight: 700;
+}

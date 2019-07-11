@@ -18,6 +18,9 @@
 		var left = ($(window).width() - $('.write_panel').width())/2;
 		$('.write_panel').css({left:left});
 
+		left = $('.write_panel').width() - $('.write_btn').width();
+		$('.write_btn').css({left:left});
+
 		var top = ($('.rate_panel').height() - $('.rate').height())/2;
 		$('.rate').css({top:top});
 		$('.rate_label').css({top:top});
@@ -47,29 +50,34 @@
 		<div class="menu_panel">
 			<div class="menu_box">
 				<div class="menu" onclick="location.href='index.html'">HOME</div>
-				<div class="menu" onclick="location.href='GoldBoard.html'">골드 Tips</div>
-				<div class="menu" onclick="location.href='FreeBoard.html'">무료 Tips</div>
-				<div class="menu">팁스터 랭킹</div>
+				<div class="menu">ABOUT US</div>
+				<div class="menu" onclick="location.href='PremiumBoard.html'">프리미엄 TIPS</div>
+				<div class="menu" onclick="location.href='LegendBoard.html'">레전드 TIPS</div>
+				<div class="menu" onclick="location.href='FreeBoard.html'">FREE TIPS</div>	
+				<div class="menu" onclick="location.href='TipsterRank.html'">TIPS RANKING</div>
 				<div class="menu" onclick="location.href='GameSchedule.html'">경기 일정</div>
-				<div class="menu">주요 기사</div>
-				<div class="menu">관련 사이트</div>
-				<div class="menu">My Page</div>
-				<div class="menu">About us</div>
+				<div class="menu">NEWS</div>
+				<div class="menu">MY PAGE</div>
+				<div class="menu">CONTACT</div>
+				<!-- <div class="menu">관련 사이트</div> -->
 			</div>
 		</div>
 
 		<div class="write_panel">
-			<!-- <div class="write_btn">발행</div> -->
+			<div class="write_btn">발행</div>
 
-			<select class="game_box" name="game">
-			    <option>게임 선택</option>
-			    <option value="0">7.2.(화) 오후 6:30 NC vs KIA</option>
-			    <option value="1">7.2.(화) 오후 6:30 삼성 vs kt</option>
-			    <option value="2">7.2.(화) 오후 6:30 롯데 vs SK</option>
-			    <option value="3">7.3.(수) 오후 6:30 롯데 vs SK</option>
-			    <option value="4">7.3.(수) 오후 6:30 두산 vs 히어로즈</option>
-			    <option value="4">7.3.(수) 오후 6:30 두산 vs 히어로즈</option>
-			</select>
+			<div>
+				<select class="game_box" name="game">
+				    <option>게임 선택</option>
+				    <option value="0">7.2.(화) 오후 6:30 NC vs KIA</option>
+				    <option value="1">7.2.(화) 오후 6:30 삼성 vs kt</option>
+				    <option value="2">7.2.(화) 오후 6:30 롯데 vs SK</option>
+				    <option value="3">7.3.(수) 오후 6:30 롯데 vs SK</option>
+				    <option value="4">7.3.(수) 오후 6:30 두산 vs 히어로즈</option>
+				    <option value="4">7.3.(수) 오후 6:30 두산 vs 히어로즈</option>
+				</select>
+			</div>
+			
 
 			<div class="rate_panel">
 				<div class="rate_label">승률</div>
@@ -101,7 +109,27 @@
 			</div>
 
 			<input class="ttl" type="text" placeholder="제목"></input>
-			<textarea class="contents" type="text" placeholder="내용"></textarea>
+
+			<div class="contents_box">
+				<div class="contents_category">선발 분석</div>
+				<textarea class="contents" type="text" placeholder="내용"></textarea>
+			</div>
+
+			<div class="contents_box">
+				<div class="contents_category">불펜 분석</div>
+				<textarea class="contents" type="text" placeholder="내용"></textarea>
+			</div>
+
+			<div class="contents_box">
+				<div class="contents_category">타격 분석</div>
+				<textarea class="contents" type="text" placeholder="내용"></textarea>
+			</div>
+
+			<div class="contents_box">
+				<div class="contents_category">최근 흐름 분석</div>
+				<textarea class="contents" type="text" placeholder="내용"></textarea>
+			</div>
+
 		</div>
 	</div>
 

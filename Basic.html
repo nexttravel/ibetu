@@ -14,7 +14,10 @@
 
 <script>
 	$(document).ready(function(){
-
+		//스크롤 위치 기억
+		if(sessionStorage.getItem('page_scroll_position')){  
+       		$('.page').scrollTop(sessionStorage.getItem('page_scroll_position'));
+    	}
 	});
 </script>
 
@@ -23,18 +26,30 @@
 		<div class="menu_panel">
 			<div class="menu_box">
 				<div class="menu" onclick="location.href='index.html'">HOME</div>
-				<div class="menu" onclick="location.href='GoldBoard.html'">골드 Tips</div>
-				<div class="menu" onclick="location.href='FreeBoard.html'">무료 Tips</div>
-				<div class="menu">팁스터 랭킹</div>
+				<div class="menu">ABOUT US</div>
+				<div class="menu" onclick="location.href='PremiumBoard.html'">프리미엄 TIPS</div>
+				<div class="menu" onclick="location.href='LegendeBoard.html'">레전드 TIPS</div>
+				<div class="menu" onclick="location.href='FreeBoard.html'">FREE TIPS</div>	
+				<div class="menu" onclick="location.href='TipsterRank.html'">TIPS RANKING</div>
 				<div class="menu" onclick="location.href='GameSchedule.html'">경기 일정</div>
-				<div class="menu">주요 기사</div>
-				<div class="menu">관련 사이트</div>
-				<div class="menu">My Page</div>
-				<div class="menu">About us</div>
+				<div class="menu">NEWS</div>
+				<div class="menu">MY PAGE</div>
+				<div class="menu">CONTACT</div>
+				<!-- <div class="menu">관련 사이트</div> -->
 			</div>
 		</div>
 
 		
 	</div>
 </body>
+
+<script>
+	//스크롤 위치 기억
+	function(){
+   		var page_scrollTop = $('.page').scrollTop();
+        //SESSION 저장소를 사용하여 스크롤 위치 값(scrollTop)을 저장하고
+   	 	sessionStorage.setItem('page_scroll_position', page_scrollTop); 
+   		location.reload();
+	}
+</script>	
 </html> 

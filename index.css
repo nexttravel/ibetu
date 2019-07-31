@@ -1,4 +1,36 @@
 @charset "utf-8";
+.a{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 300px;
+	background: white;
+}
+
+.menu_panel{
+	position: relative;
+	width: 100%;
+	height: 70px;
+	z-index: 5;
+	background: #152c4a;
+	border: solid .5px;
+}
+
+/*.sticky {
+  position: fixed;
+}*/
+
+.photo_box{
+	position: fixed;
+	width: 100%;
+	height: 300px;
+}
+
+.photo{
+	width: 100%;
+	height: 100%;
+}
+
 .float_left{float: left;}
 
 .login_panel{
@@ -66,13 +98,13 @@
 	left: 10%;
 	width: 80%;
 	height: 80%;
-	display: none;
+	display: block;
 	/*border: solid .5px;*/
 }
 
 .porofile_id_box{
 	position: absolute;
-	border: solid .5px red;
+	/*border: solid .5px red;*/
 }
 
 .profile_photo_box{
@@ -121,25 +153,54 @@
 }
 
 .rank_panel{
-	position: absolute;
-	width: 40vw;
-	height: auto;
-	top: 15vh;
-	left: 20vw;
-	/*border: solid .5px;*/
+	position: relative;
+	width: 660px;
+	height: 100%;
+	background: white;
+	/*border: solid .5px #DEDEDE;*/
+	/*margin-bottom: 500px;*/
+	font-family: 'Nanum Gothic', sans-serif;
+}
 
+.rank_box{
+	position: relative;
+	height: 100%;
+	top: 100px;
+	border: solid .5px #DEDEDE;
+
+}
+
+.rank_ttl{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	text-align: center; /*센터 맞춤 속성*/
+	display: flex; /*센터 맞춤 속성*/
+	justify-content: center; /*센터 맞춤 속성*/
+	align-items: center; /*센터 맞춤 속성*/
+	background: #152c4a;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: .7px;
 }
 
 .list_box{
 	position: relative;
 	width: 100%;
-	height: 8vh;
-	border-bottom: solid .5px;
+	height: 40px;
+	/*border: solid .5px;*/
 }
+
+.list_index{
+	background: #DFDFDF;
+	/*color: white;*/
+}
+
 
 .list_txt{
 	position: relative;
-	width: 15%;
+	/*width: 15%;*/
 	height: 100%;
 	float: left;
 	/*border: solid .5px;*/
@@ -147,20 +208,37 @@
 	display: flex; /*센터 맞춤 속성*/
 	justify-content: center; /*센터 맞춤 속성*/
 	align-items: center; /*센터 맞춤 속성*/
-	font-size: 1vw;
+	font-size: 15px;
+	/*border: solid .5px;*/
 }
 
 
 .rank{
-	/*font-size: 1.5vw;*/
-	font-weight: 700;
-	/*color: #FF0000;*/
+	width: 51px;
+	font-size: 15px;
 }
 
-.id{
-	font-weight: 700;
+
+.rank_id{
+	width: 191px;
+}
+
+.rank_dividend{
+	width: 191px;
 }
 
 .link_to_tipster{
+	width: 191px;
 	cursor: pointer;
+}
+
+
+.index{
+	font-size: 18px;
+}
+
+
+.id{
+	width: 149px;
+	font-weight: 700;
 }

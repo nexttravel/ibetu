@@ -1,3 +1,5 @@
+.bolder{font-weight: 700;}
+
 .tip_panel{
 	position: relative;
 	top: 100px;
@@ -7,11 +9,6 @@
 	background: white;
 	font-family: 'Nanum Gothic', sans-serif;
 	/*border: solid .5px;*/
-}
-
-.game{
-	position: relative;
-	padding-top: 10px;
 }
 
 .ttl{
@@ -32,7 +29,7 @@
 	position: relative;
 	width: 100%;
 	height: 50px;
-	top: 10px;
+	/*top: 10px;*/
 	padding-bottom: 15px;
 	border-bottom: solid .5px #D1D0D0;
 
@@ -65,15 +62,16 @@
 
 .rate_panel{
 	position: relative;
-	top: 60px;
 	width: 100%;
-	margin-bottom: 80px;
-	/*border: solid .5px;*/
+	height: auto;
+	margin-top: 60px;
 }
 
 .rate_box{
 	position: relative;
 	clear: left;
+	/*border: solid;*/
+
 }
 
 .rate{
@@ -84,14 +82,41 @@
 	line-height: 25px;
 }
 
-.rate_ttl{
-	font-weight: 700;
+.game_selected{
+	width: auto;
 }
 
 
+.star{
+	position: relative;
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-right: 6px;
+}
+
+.star_img{
+	width: 100%;
+	height: 100%;
+}
+
+.contents_panel{
+	position: relative;
+	margin-top: 80px;
+}
+
+.contents_box{
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.contents_ttl{
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
 .contents{
 	position: relative;
-	top: 60px;
 	width: 100%;
 	height: auto;
 	line-height: 25px;
@@ -101,16 +126,20 @@
 
 .comment_panel{
 	position: relative;
-	top: 180px;
 	width: 100%;
 	height: 500px; /*max-height로 변경해주기*/
+	margin-top: 150px;
 	margin-bottom: 300px;
 	border-top: solid .5px #D1D0D0;
+	/*border: solid .5px red;*/
 }
 
 .comment_wrapper{
 	position: relative;
+	width: 100%;
+	height: auto;
 	top: 20px;
+	/*border: solid orange;*/
 }
 
 .comment_info{
@@ -142,7 +171,9 @@
 	width: 8%;
 	height: 100%;
 	border-radius: 5px;
-	background: #DAD7D7;
+	background: #1B3557;
+	color: white;
+	border: none;
 	text-align: center; /*센터 맞춤 속성*/
 	display: flex; /*센터 맞춤 속성*/
 	justify-content: center; /*센터 맞춤 속성*/
@@ -154,30 +185,35 @@
 	position: relative;
 	top: 50px;
 	width: 100%;
-	height: 500px;
-	/*border: solid .5px;*/
+	height: auto;
+	margin-top: 20px;
+	/*border: solid .5px green;*/
 }
 
 .comment_row{
 	position: relative;
 	width: 100%;
-	min-height: 80px;
 	height: auto;
-	/*border: solid .5px;*/
+	/*border-bottom: solid .5px #DBDBDB;*/
 }
 
 .comment_colm{
-	position: absolute;
+	position: relative;
+	height: auto;
 	float: left;
-	/*border:solid;*/
+	margin-bottom: 10px;
+	text-align: justify;
+	/*border:solid .5px green;*/
 }
 
 .comment_id{
-	width: 80px;
-	/*left: 20px;*/
+	width: 10%;
 	font-weight: 700;
+	/*border:solid .5px blue;*/
 }
 
 .comment{
+	width: 85%;
 	line-height: 25px;
+	/*border:solid .5px purple;*/
 }

@@ -54,7 +54,7 @@
 				<div class="menu">NEWS</div>
 				<div class="menu">MY PAGE</div>
 				<div class="menu">CONTACT</div>
-				<div class="menu" onclick="location.href='login.html'">LOGIN</div>
+				<div class="menu menu_clicked" onclick="location.href='login.html'">LOGIN</div>
 				<!-- <div class="menu">관련 사이트</div> -->
 			</div>
 		</div>
@@ -73,11 +73,11 @@
 					</div>
 
 					<div class="login_info_box">
-						<input class="login_btn" type="submit" name="sign_in" value="SIGN IN"></input>
+						<input class="login_btn" type="submit" name="login" value="LOGIN"></input>
 					</div>
 
 					<? 
-						if(isset($_POST['sign_in'])){
+						if(isset($_POST['login'])){
 							$id = $_POST['id'];
 							$pw = md5($_POST['pw']);
 
@@ -87,7 +87,8 @@
 
 							if($row == 1){
 								$_SESSION["signed_id"] = $id;
-								header("Location:http://newtrip.cafe24.com/index.php");
+								//이전 페이지로 넘어가도록 변경하기!!!
+								header("Location:http://newtrip.cafe24.com/index.php"); 
 							}
 
 							else{
